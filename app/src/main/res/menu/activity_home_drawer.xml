@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/menu_msbm"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_profile"
+            android:visible="false"
+            android:icon="@drawable/ic_home_black_18dp"
+            android:title="@string/profile" />
+
+        <item
+            android:id="@+id/nav_classes"
+            android:icon="@drawable/ic_event_black_24dp"
+            android:title="@string/classes" />
+
+        <item
+            android:id="@+id/nav_news"
+            android:title="@string/news"
+            android:icon="@drawable/ic_picture_in_picture_black_24dp"/>
+
+        <item
+            android:id="@+id/nav_events"
+            android:title="@string/events"
+            android:icon="@drawable/ic_bookmark_black_24dp"/>
+
+        <item
+            android:id="@+id/nav_social"
+            android:title="@string/social"
+            android:icon="@drawable/ic_group_black_24dp"/>
+
+        <item
+            android:id="@+id/nav_images"
+            android:title="Images"
+            android:icon="@drawable/ic_camera_alt_black_24dp"/>
+
+        <item
+            android:id="@+id/nav_video"
+            android:title="Video"
+            android:visible="true"
+            android:icon="@drawable/ic_ondemand_video_black_24dp"/>
+
+        <item
+            android:id="@+id/nav_locations"
+            android:title="@string/location"
+            android:icon="@drawable/ic_map_black_24dp"/>
+
+        <item
+            android:id="@+id/nav_directory"
+            android:title="@string/directory"
+            android:icon="@drawable/ic_book_black_24dp" />
+
+        <item
+            android:id="@+id/nav_bookings"
+            android:title="Bookings"
+            android:icon="@drawable/ic_bookmark_black_24dp" />
+
+        <item
+            android:id="@+id/nav_courses"
+            android:title="@string/courses"
+            android:icon="@drawable/ic_access_time_black_24dp"/>
+
+    </group>
+
+    <group
+        android:id="@+id/menu_general"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/nav_setting"
+            android:title="@string/action_settings"
+            android:visible="false"
+            android:icon="@drawable/ic_menu_manage"/>
+
+        <item
+            android:id="@+id/nav_feedback"
+            android:title="@string/feedback"
+            android:icon="@drawable/ic_feedback_black_24dp"/>
+
+        <item
+            android:id="@+id/nav_about"
+            android:title="@string/about"
+            android:icon="@drawable/ic_info_outline_black_24dp"/>
+    </group>
+</menu>

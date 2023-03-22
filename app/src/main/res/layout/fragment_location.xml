@@ -1,0 +1,43 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    tools:context="com.fras.msbm.fragments.LocationFragment">
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/map_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        mapbox:center_latitude="18.0050379"
+        mapbox:center_longitude="-76.7488265"
+        mapbox:zoom="14"/>
+
+    <!--<com.mapbox.services.android.geocoder.ui.GeocoderAutoCompleteView-->
+        <!--android:id="@+id/query"-->
+        <!--android:singleLine="true"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_marginStart="18dp"-->
+        <!--android:layout_marginEnd="18dp"-->
+        <!--android:layout_marginTop="14dp"-->
+        <!--android:padding="10dp"-->
+        <!--android:hint="Search Location"-->
+        <!--android:textColor="@android:color/black"-->
+        <!--android:background="@android:color/white"-->
+        <!--android:elevation="12dp"/>-->
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_my_location_24dp"
+        backgroundTint="@android:color/holo_orange_dark" />
+
+</FrameLayout>

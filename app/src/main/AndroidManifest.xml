@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.fras.msbm">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@drawable/newicon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+        <meta-data
+            android:name="DATABASE"
+            android:value="directory.db" />
+        <meta-data
+            android:name="VERSION"
+            android:value="4" />
+        <meta-data
+            android:name="QUERY_LOG"
+            android:value="true" />
+        <meta-data
+            android:name="DOMAIN_PACKAGE_NAME"
+            android:value="com.fras.msbm.models" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="74f0aee2c299a6bdf5d48a6758d5a6ead299b730" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_book_white_24dp" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/orange" />
+
+        <service
+            android:name=".services.MyFirebaseMessagingService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <service
+            android:name=".services.MyFirebaseInstanceIDService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <receiver android:name=".receivers.system.NetworkStateChangeReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.mapbox.mapboxsdk.telemetry.TelemetryService" />
+
+        <activity
+            android:name=".activities.WelcomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.general.LoginActivity"
+            android:noHistory="true"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".activities.SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.courses.ShowCourseActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!-- <activity -->
+        <!-- android:name=".activities.bookings.NewBookingActivity" -->
+        <!-- android:label="New Booking" -->
+        <!-- android:theme="@style/AppTheme" /> -->
+        <activity
+            android:name=".activities.general.AboutActivity"
+            android:label="@string/title_activity_about"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.general.ListClassesActivity"
+            android:label="Classes"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.bookings.BookingsOptionActivity"
+            android:label="@string/title_activity_bookings_option"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.bookings.BookingsActivity"
+            android:label="@string/title_activity_bookings"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.bookings.BookingsListActivity"
+            android:label="@string/title_activity_bookings_list"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.articles.ShowArticleActivity"
+            android:label="@string/title_activity_show_article"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.general.MoodleActivity"
+            android:label="@string/title_activity_moodle"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.general.SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".activities.bookings.BookingDetailsActivity"
+            android:label="@string/title_activity_booking_details"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.general.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".gallery.ImageGalleryPhotoActivity"
+            android:label="@string/title_photos" />
+        <activity
+            android:name=".gallery.ImageGalleryActivity"
+            android:label="@string/title_imageGallery" />
+        <activity
+            android:name=".gallery.ImageDialog"
+            android:label="Images" />
+        <activity
+            android:name=".VideoListDemoActivity"
+            android:label="Video" />
+        <activity
+            android:name=".activities.bookings.BookingUserList"
+            android:label="@string/title_activity_booking_user_list"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.general.ExpandableTravelListViewActivity"
+            android:label="Locations" />
+
+        <service android:name="com.mapbox.mapboxsdk.telemetry.TelemetryService" />
+
+        <activity
+            android:name=".activities.general.LocationDetailActivity"
+            android:label="@string/title_activity_location_detail"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.general.ContactDetailActivity"
+            android:label="@string/title_activity_contact_detail"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>

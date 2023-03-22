@@ -1,0 +1,71 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.general.AboutFragment"
+    tools:showIn="@layout/activity_about">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_title_about_msbm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_msbm_title"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:drawableRight="@drawable/ic_keyboard_arrow_down_black_24dp"
+            android:drawableEnd="@drawable/ic_keyboard_arrow_down_black_24dp"/>
+
+        <TextView
+            android:id="@+id/text_content_about_msbm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_msbm_content"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/text_title_about_app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_msbm_mobile_title"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:drawableRight="@drawable/ic_keyboard_arrow_down_black_24dp"
+            android:drawableEnd="@drawable/ic_keyboard_arrow_down_black_24dp"/>
+
+        <TextView
+            android:id="@+id/text_content_about_app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_msbm_mobile_content"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/text_title_tips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_msbm_tips_title"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:drawableRight="@drawable/ic_keyboard_arrow_down_black_24dp"
+            android:drawableEnd="@drawable/ic_keyboard_arrow_down_black_24dp"/>
+
+        <TextView
+            android:id="@+id/text_content_tips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_msbm_tips_content"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+</ScrollView>

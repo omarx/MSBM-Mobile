@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "78357679464",
+    "firebase_url": "https://msbm-mobile.firebaseio.com",
+    "project_id": "msbm-mobile",
+    "storage_bucket": "msbm-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78357679464:android:c65371bf9e882da5",
+        "android_client_info": {
+          "package_name": "com.fras.msbm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78357679464-fqp553hm7f7e0sj0r85qk3a6t0g6q3s9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fras.msbm",
+            "certificate_hash": "1DADDEDA9BAB44EC0B3B61A09D3352260CD9710F"
+          }
+        },
+        {
+          "client_id": "78357679464-cd7la95dhpu6o283tb71vkbrkg8bvr3g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAryJekXeJKack3QNGgduz01OgRoNT-7uM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78357679464-cd7la95dhpu6o283tb71vkbrkg8bvr3g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

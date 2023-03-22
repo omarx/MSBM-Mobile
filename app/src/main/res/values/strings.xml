@@ -1,0 +1,378 @@
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">MSBM Mobile</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="news">News</string>
+    <string name="events">Events</string>
+    <string name="courses">Courses</string>
+    <string name="directory">Directory</string>
+    <string name="classes">Classes</string>
+    <string name="research">Research</string>
+    <string name="calendar">Calendar</string>
+    <string name="bookings">Bookings</string>
+    <string name="dining">Dining</string>
+    <string name="social">Social</string>
+    <string name="map">Map</string>
+    <string name="photos">Photos</string>
+    <string name="videos">Videos</string>
+    <string name="about">About</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="news_article_thumbnail">News article thumbnail</string>
+
+    <string name="error.message.network">Network error</string>
+    <string name="error.message.call">Call failed</string>
+    <string name="error.message.map">Map loading failed</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+
+    <string name="welcome_images">Welcome images</string>
+    <string name="start">Start</string>
+    <string name="connect_moodle">Connect Moodle</string>
+    <string name="msbm_s_logo">MSBM\'s logo</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="done">Done</string>
+    <string name="connect_with_moodle">Connect With Moodle</string>
+    <string name="msbsm_logo">MSBMS logo</string>
+    <string name="icon_representing_cotent">Icon representing cotent</string>
+    <string name="icon_representing_content">Icon representing content</string>
+    <string name="icon_that_provides_addition_information_when_clicked">Icon that provides addition information when clicked</string>
+    <string name="title_activity_course">CourseActivity</string>
+    <string name="moodle_connect">Moodle Connect</string>
+    <string name="title_activity_new_booking">NewBookingActivity</string>
+    <string name="duration">Duration</string>
+    <string name="forr">for</string>
+    <string name="location">Location</string>
+    <string name="start_date">Start Date</string>
+    <string name="at">at</string>
+    <string name="create_new_booking">Create New Booking</string>
+    <string name="time">Time</string>
+    <string name="hours">hours</string>
+    <string name="create">Create</string>
+    <string name="title_activity_news">NewsActivity</string>
+    <string name="title_activity_list_article">ListArticleActivity</string>
+    <string name="article_headline_image">Article headline image</string>
+    <string name="share_icon">Share icon</string>
+    <string name="login_screen_background">Login screen background</string>
+    <string name="title_activity_social">SocialActivity</string>
+    <string name="title_activity_list_dining">Dining</string>
+    <string name="home">Home</string>
+    <string name="title_activity_about">About</string>
+    <string name="about_msbm_title">About MSBM</string>
+    <string name="about_msbm_content">
+        The Mona School of Business &amp; Management is the premier business school in the
+        Caribbean. Our continued focus is on being a solution oriented school of business &amp;
+        management which produces professionals and leaders through teaching, research and service.
+    </string>
+    <string name="about_msbm_mobile_title">About MSBM Mobile</string>
+    <string name="about_msbm_mobile_content">
+        The MSBM Mobile App is a key element of MSBM\'s digital strategy and seek to exploit the
+        capabilities of the mobile channel as a means of engaging with current and prospective
+        students, and enhancing student service delivery. MSBM Mobile v1(2015) was developed by UWI students,
+        Terecia Anderson, Xavier Bryson, Antonio Fearon, Shane Richards and Kenneth Williams using a hybrid HTML5 and Android build.
+        \n\nMSBM Mobile v2(2017) is a fully Native Android application developed by Antonio Fearon.
+    </string>
+    <string name="about_msbm_tips_title">Helpful Tips</string>
+    <string name="about_msbm_tips_content"><b>Courses:</b> \n
+You will need to use your Moodle login in order to access the Courses module. You may login to either OurVLE (Undergrad courses) or MSBM-ELS (for most Graduate courses) \n \n
+<b>Booking</b>: \n
+This module allows you to reserve use of the MSBM Gazebos, Finance Lab and the Media Lab in the Doc Centre. You will need to use your Moodle login in order to create a booking. Bookings can only be made for the current date. Once submitted the reservation is not secured until reviewed and confirmed by the MSBM Librarian. \n \n
+<b>Locations</b>: \n
+For most effective use of the Locations module, tap the "Locations" button at the top right of the screen beside the Menu icon to see the categorized list of available locations on campus. You can select to display one or all locations from a specific Category. If you tap the "Locate me" button in the bottom right, the map displays your current position in relation to the campus locations, to assist with navigation. \n \n
+<b>Directory:</b> \n
+The full-text search function allows you to quickly locate a name in the Contact Directory. As you enter letters the listing is reduced until the desired entry is found \n \n
+
+For any additional information or to report a bug, use the Feedback menu option, or contact the MSBM HelpDesk at: \n
+\nEmail: msbm-helpdesk@uwimona.edu.jm\n\n
+        Telephone: 977-6035 ext. 230 or 362</string>
+    <string name="permission_required_toast">Permission Required</string>
+    <string name="title_activity_list_classes">ListClassesActivity</string>
+
+    <!-- Fearon -->
+    <!-- Bookings Gazebo List -->
+    <string name="send_booking">Send</string>
+    <string name="gazebo_prompt">Duration</string>
+    <string-array name="gazebo_time_array">
+        <item>1 Hour</item>
+        <item>2 Hours</item>
+        <item>4 Hours</item>
+    </string-array>
+    <string name="title_activity_bookings_list">Bookings List</string>
+
+    <string name="bookings_nameText">Name:\u0020</string>
+    <string name="bookings_startText">Start Time:\u0020</string>
+    <string name="bookings_endText">End Time:\u0020</string>
+    <string name="bookings_location">Location:\u0020</string>
+
+    <string name="bookings_note1">Bookings has not been made official until the top status bar is Green in color and says \"CONFIRMED\".</string>
+
+    <string name="lectures_room">Room:\u0020</string>
+    <string name="lectures_teach">Lecturer:\u0020</string>
+    <string name="lectures_time">Time:\u0020</string>
+    <string name="lectures_date">Date:\u0020</string>
+
+    <string name="events_room">Venue:\u0020</string>
+
+    <string name="title_activity_booking_details">BookingDetails</string>
+
+    <string name="main_activity_title_bookings">Bookings</string>
+    <string name="title_activity_bookings_option">Bookings</string>
+
+    <string name="title_bookings_create">Submit Booking</string>
+
+    <string name="title_bookings_list">Today\'s Booking</string>
+
+    <string name="title_bookings_personal">My Bookings</string>
+
+    <string name="title_directory">Directory</string>
+
+    <string name="title_courses">Courses</string>
+
+    <string name="title_map">Map</string>
+
+    <string name="title_classes">Classes</string>
+
+    <string name="title_events">Events</string>
+
+    <string name="title_imageGallery">Image Gallery</string>
+
+    <string name="title_photos">Images</string>
+
+    <string name="title_news">News</string>
+
+    <string name="title_videos">Videos</string>
+
+    <string name="title_activity_splash_screens">SplashScreensActivity</string>
+    <string name="title_activity_directory">DirectoryActivity</string>
+    <string name="title_activity_bookings">Bookings</string>
+    <string name="title_activity_list_courses">Courses</string>
+    <string name="moodle">Moodle</string>
+    <string name="title_activity_show_article">ShowArticleActivity</string>
+    <string name="title_activity_moodle">Moodle</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="help_feedback"><![CDATA[Help & Feedback]]></string>
+    <string name="feedback">Feedback</string>
+
+    <string name="cd_main_image">main image</string>
+    <string name="add_my_location">Add My Location</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="anonymous">Anonymous</string>
+
+
+    <!-- Material Design Icons -->
+    <string name="material_icon_account">&#xe800;</string>
+    <string name="material_icon_account_multiple">&#xe8dc;</string>
+    <string name="material_icon_bookmark">&#xe921;</string>
+    <string name="material_icon_bike">&#xe915;</string>
+    <string name="material_icon_box_full">&#xe86b;</string>
+    <string name="material_icon_clock">&#xe881;</string>
+    <string name="material_icon_check">&#xe867;</string>
+    <string name="material_icon_checked_full">&#xe86f;</string>
+    <string name="material_icon_check_empty">&#xe86a;</string>
+    <string name="material_icon_check_full">&#xe86e;</string>
+    <string name="material_icon_city">&#xe878;</string>
+    <string name="material_icon_cart">&#xe857;</string>
+    <string name="material_icon_chevron_down">&#xe874;</string>
+    <string name="material_icon_chevron_up">&#xe877;</string>
+    <string name="material_icon_date">&#xe848;</string>
+    <string name="material_icon_drink">&#xea08;</string>
+    <string name="material_icon_dollar">&#xe892;</string>
+    <string name="material_icon_email">&#xe99c;</string>
+    <string name="material_icon_eat">&#xeac6;</string>
+    <string name="material_icon_friends">&#xe8d5;</string>
+    <string name="material_icon_flag">&#xe96a;</string>
+    <string name="material_icon_favorite">&#xe9b6;</string>
+    <string name="material_icon_go">&#xea04;</string>
+    <string name="material_icon_go_left">&#xe875;</string>
+    <string name="material_icon_go_right">&#xe876;</string>
+    <string name="material_icon_home_variant">&#xe9bd;</string>
+    <string name="material_icon_home">&#xe9be;</string>
+    <string name="material_icon_hotels">&#xeae3;</string>
+    <string name="material_icon_heart_outline">&#xe9b3;</string>
+    <string name="material_icon_headphones">&#xe9b1;</string>
+    <string name="material_icon_human">&#xe9c5;</string>
+    <string name="material_icon_headline">&#xeb40;</string>
+    <string name="material_icon_image_box">&#xe952;</string>
+    <string name="material_icon_info">&#xe9d4;</string>
+    <string name="material_icon_info_box">&#xe896;</string>
+    <string name="material_icon_like">&#xeb03;</string>
+    <string name="material_icon_line_spacing">&#xe988;</string>
+    <string name="material_icon_note">&#xea23;</string>
+    <string name="material_icon_message">&#xea12;</string>
+    <string name="material_icon_play">&#xe831;</string>
+    <string name="material_icon_play_single">&#xea7d;</string>
+    <string name="material_icon_play_square">&#xea7a;</string>
+    <string name="material_icon_play_circle">&#xea7b;</string>
+    <string name="material_icon_play_outline">&#xea7b;</string>
+    <string name="material_icon_pig">&#xea72;</string>
+    <string name="material_icon_password">&#xe9fa;</string>
+    <string name="material_icon_plus_box">&#xea7f;</string>
+    <string name="material_icon_party">&#xe937;</string>
+    <string name="material_icon_point_empty">&#xe868;</string>
+    <string name="material_icon_point_full">&#xe869;</string>
+    <string name="material_icon_star_outline">&#xeade;</string>
+    <string name="material_icon_star_half">&#xeadd;</string>
+    <string name="material_icon_star">&#xeadf;</string>
+    <string name="material_icon_share">&#xeac0;</string>
+    <string name="material_icon_skip_next">&#xeaca;</string>
+    <string name="material_icon_skip_previous">&#xeacb;</string>
+    <string name="material_icon_soundcloud">&#xead3;</string>
+    <string name="material_icon_statistics">&#xea87;</string>
+    <string name="material_icon_shop">&#xe858;</string>
+    <string name="material_icon_sleep">&#xe9c2;</string>
+    <string name="material_icon_settings">&#xeabe;</string>
+    <string name="material_icon_state">&#xeb62;</string>
+    <string name="material_icon_to_left">&#xe876;</string>
+    <string name="material_icon_video">&#xeb39;</string>
+    <string name="material_icon_undo">&#xeb2c;</string>
+    <string name="material_icon_unfold_more">&#xeb2f;</string>
+    <string name="material_icon_w_shop">&#xeb4f;</string>
+    <string name="material_icon_cloud_univ_first">&#xeb54;</string>
+    <string name="material_icon_cloud_univ_second">&#xeb5a;</string>
+    <string name="material_icon_cloud_univ_third">&#xeb55;</string>
+
+    <!-- Youtube -->
+
+    <string name="youtube_api_demo">YouTube API Demos</string>
+
+    <string name="videowall_demo_name">Video Wall</string>
+    <string name="videolist_demo_name">Video List</string>
+    <string name="standalone_player_demo_name">Standalone Player</string>
+    <string name="playerview_demo_name">Simple PlayerView</string>
+    <string name="fragment_demo_name">Simple PlayerFragment</string>
+    <string name="player_controls_demo_name">Custom Player Controls</string>
+    <string name="action_bar_demo_name">Overlay ActionBar Demo</string>
+    <string name="fullscreen_demo_name">Custom Fullscreen Handling</string>
+    <string name="intents_demo_name">YouTube App Launcher Intents</string>
+
+    <string name="playerview_text">This is a YouTubePlayerView!</string>
+    <string name="playerfragment_text">This is a YouTubePlayerFragment!</string>
+
+    <string name="demo_select">Please select a demo:</string>
+    <string name="some_demos_disabled">* Your device is currently running Android API version <xliff:g id="current_version">%1$s</xliff:g>.</string>
+    <string name="list_item_disabled">Requires Android API version <xliff:g id="required_version">%1$s</xliff:g> or higher.</string>
+
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="skip_to">Skip To</string>
+    <string name="seconds">secs</string>
+    <string name="player_style">Player Style</string>
+    <string name="def">Default</string>
+    <string name="minimal">Minimal</string>
+    <string name="chromeless">Chromeless</string>
+
+    <string name="play_video">Play video</string>
+    <string name="play_playlist">Play playlist</string>
+    <string name="play_video_list">Play video list</string>
+    <string name="start_index">Start index</string>
+    <string name="start_time">Start time (sec)</string>
+    <string name="autoplay">Autoplay</string>
+    <string name="lightbox_mode">Lightbox mode</string>
+
+    <string name="intent_select">Please select an action:</string>
+    <string name="intent_disabled">This intent is not supported with the currently installed version of YouTube.</string>
+    <string name="youtube_currently_installed">YouTube version installed on this device: <xliff:g id="youtube_version">%1$s</xliff:g>.</string>
+    <string name="youtube_not_installed">YouTube is not installed on this device.</string>
+
+    <string name="fullscreen_tutorial">This is a demo which shows how to handle fullscreen behaviour. This activity has differents layouts for portrait, landscape and fullscreen. The user can enter fullscreen either by using the player controller or programmatically by the programmer (here using a button). If your activity does not have a landscape layout, you can choose to automatically enter fullscreen when the device is rotated to landscape orientation.</string>
+    <string name="enter_fullscreen">Enter Fullscreen</string>
+    <string name="landscape_fullscreen">Always fullscreen in landscape</string>
+
+    <string name="actionbar_tutorial">This is a demo which shows how to use the ActionBar as an overlay when the video is playing in fullscreen. The actionbar will automatically fade away along with the player controls when the video is being played in fullscreen. While not in fullscreen the Actionbar is visible and does not overlay any of the views.</string>
+
+    <string name="error_thumbnail_view">There was an error initializing the YouTubeThumbnailView (%1$s)</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+    <string name="msbm_els">MSBM-ELS</string>
+    <string name="ourvle">OurVLE</string>
+    <string name="msbm_mona">Mona</string>
+    <string name="msbm_wcj">WJC</string>
+    <!--<string name="title_classes">News</string>-->
+
+    <!-- user preferences -->
+    <string name="username_key">username</string>
+    <string name="first_name_key">first_name</string>
+    <string name="last_name_key">last_name</string>
+    <string name="user_id_key">user_id</string>
+    <string name="profile_url_key">profile_url</string>
+    <string name="token_key">token</string>
+    <string name="is_logged_in_key">is_logged_in</string>
+    <string name="email_key">email</string>
+
+    <string name="not_logged_in">Not Logged In</string>
+
+    <string name="moodle_ourvle_base_url" translatable="false">http://ourvle.mona.uwi.edu</string>
+    <!--<string name="moodle_msbm_base_url" translatable="false">http://173.45.230.79/learning</string>-->
+    <string name="moodle_msbm_base_url" translatable="false">http://elearning2.msbm-uwi.org</string>
+
+    <string name="moodle_login_endpoint">/login/token.php</string>
+    <string name="moodle_service_endpoint">/webservice/rest/server.php</string>
+    <string name="pref_logout">logout</string>
+    <string name="title_activity_booking_user_list">My Bookings</string>
+    <string name="title_activity_location_detail">Activity_location_detail</string>
+    <string name="title_activity_contact_detail">Directory</string>
+</resources>
